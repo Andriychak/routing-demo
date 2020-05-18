@@ -26,7 +26,7 @@ import { ActivatedRoute, Router, ParamMap } from '@angular/router';
 })
 export class DepartmentDetailComponent implements OnInit {
 
-  private departmentId;
+  public departmentId: number;
 
   constructor(private route: ActivatedRoute, private router: Router) { }
 

@@ -17,8 +17,8 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 })
 export class DepartmentListComponent implements OnInit {
 
-  private selectedId;
-  private departments = [
+  public selectedId: string;
+  public departments = [
     { "id": 1, "name": "Angular" },
     { "id": 2, "name": "Node" },
     { "id": 3, "name": "MongoDB" },
